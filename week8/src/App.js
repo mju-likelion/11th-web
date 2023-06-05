@@ -21,17 +21,17 @@ function App() {
 
   return (
     <>
-      <ColorContext.Provider value={colorValue}>
-        {/* <StateContext.Provider value="state value"> */}
-        <ContextChild1 />
+      {/* <ColorContext.Provider value={colorValue}> */}
+      {/* <StateContext.Provider value="state value"> */}
+      {/* <ContextChild1 />
         <ContextChild2 />
-        <ContextChild3 />
-        {/* </StateContext.Provider> */}
-      </ColorContext.Provider>
+        <ContextChild3 /> */}
+      {/* </StateContext.Provider> */}
+      {/* </ColorContext.Provider> */}
 
-      {/* <RecoilChild1 />
+      <RecoilChild1 />
       <RecoilChild2 />
-      <RecoilChild3 /> */}
+      <RecoilChild3 />
     </>
   );
 }
